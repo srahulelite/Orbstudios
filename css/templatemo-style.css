@@ -54,7 +54,7 @@ p {
 	color: #fff;
 	font-weight: 500;
 	letter-spacing: 1px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	text-decoration: none;
 	border-radius: 20px;
 }
@@ -100,8 +100,8 @@ p {
 
 .navbar-nav>li>a {
 	color: #fff!important;
-	font-size: 13px;
-	font-weight: 300;
+	font-size: 15px;
+	font-weight: 500;
 	text-transform: uppercase;
 	text-shadow: none;
 	line-height: 80px;
@@ -115,8 +115,8 @@ p {
 
 .header.active .navbar-nav>li>a {
 	font-family: 'Open Sans', arial, sans-serif;
-	font-size: 13px;
-	font-weight: 300;
+	font-size: 15px;
+	font-weight: 500;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
 	text-shadow: none;
@@ -211,7 +211,7 @@ bootstrap.min.css:5
 	width: 100%;
   	padding-top: 35vh;
   	text-align: center;
-  	background-image: url(../img/banner_bg.jpg);
+  	background-image: url(../videos/mainBG.gif);
   	vertical-align: middle;
 }
 
@@ -249,8 +249,9 @@ bootstrap.min.css:5
 
 
 #about {
-	padding: 150px 0px;
-	background-image: url(../img/about-bg.jpg);
+	padding: 70px 0px;
+	background-color: #E9E9E9;
+	/* background-image: url(../img/about-bg.jpg); */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -258,6 +259,9 @@ bootstrap.min.css:5
 
 #about .service-item {
 	text-align: center;
+	background-color: #FFF;
+	padding: 3%;
+	border-radius: 10px;
 }
 
 #about .service-item .icon {
@@ -266,19 +270,20 @@ bootstrap.min.css:5
 	display: inline-block;
 	text-align: center;
 	line-height: 104px;
-	border: 3px solid #fff;
+	border: 3px solid #f0eded;
 	border-radius: 50%;
-	background-color: #f7c552;
+	background-color: #7a7a78;
 }
 
 #about .service-item h4 {
 	margin-bottom: 30px;
-	margin-top: 45px;
+	margin-top: 20px;
 	font-size: 17px;
-	font-weight: 500;
-	color: #fff;
+	font-weight: 700;
+	color: #726d6d;
 	letter-spacing: 1px;
 }
+
 
 #about .service-item .line-dec {
 	width: 100%;
@@ -287,8 +292,10 @@ bootstrap.min.css:5
 }
 
 #about .service-item p {
-	color: #fff;
-	margin-top: 30px;
+	color: #4e4b4b;
+	margin-top: 2px;
+	margin:auto;
+	line-height: 150%;
 }
 
 #about .service-item .primary-blue-button {
